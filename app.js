@@ -9,10 +9,10 @@ var usersRouter = require('./routes/users');
 var quesRouter = require('./routes/ques');
 
 var app = express();
-
-
+const dev_db_url='mongodb+srv://jrksapuser:jrksapuser@cluster0.0oxeb.mongodb.net/jrksaptestdb?retryWrites=true&w=majority';
+var mongoDB = process.env.MONGODB_URI || dev_db_url;
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://jrksapuser:jrksapuser@cluster0.0oxeb.mongodb.net/jrksaptestdb?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -31,7 +31,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public','build')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

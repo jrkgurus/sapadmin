@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d7449efd.chunk.css",
+    "main.js": "./static/js/main.b83e3d8d.chunk.js",
+    "main.js.map": "./static/js/main.b83e3d8d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d8535afe.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d8535afe.js.map",
+    "static/js/2.b5241d08.chunk.js": "./static/js/2.b5241d08.chunk.js",
+    "static/js/2.b5241d08.chunk.js.map": "./static/js/2.b5241d08.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.d7449efd.chunk.css.map": "./static/css/main.d7449efd.chunk.css.map",
+    "static/js/2.b5241d08.chunk.js.LICENSE.txt": "./static/js/2.b5241d08.chunk.js.LICENSE.txt",
+    "static/media/sapcard.a74b6bd3.png": "./static/media/sapcard.a74b6bd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8535afe.js",
+    "static/js/2.b5241d08.chunk.js",
+    "static/css/main.d7449efd.chunk.css",
+    "static/js/main.b83e3d8d.chunk.js"
+  ]
+}
