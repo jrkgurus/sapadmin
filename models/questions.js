@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
     Q:String,
     OPS:Array,
     ANS: String,
+    module:String
     })
 
 module.exports=mongoose.model('questions',quesSchema);

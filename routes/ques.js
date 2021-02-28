@@ -24,7 +24,7 @@ res.send(result);
 }); 
 // Create One Route
 router.post("/create", async (req, res) => {
-  const newQues = new questions({Q:req.body.Q,OPS:req.body.OPS, ANS:req.body.ANS})
+  const newQues = new questions({Q:req.body.Q,OPS:req.body.OPS, ANS:req.body.ANS, module:req.body.module})
   console.log(newQues)
   const result = await newQues.save()
   res.send(result);
@@ -33,7 +33,7 @@ router.post("/create", async (req, res) => {
 router.put("/:id", async (req, res) => {
 
   // Rest of the code will go here
-  const result = await questions.findOneAndUpdate({_id:req.params.id},{Q:req.body.Q,OPS:req.body.OPS, ANS:req.body.ANS});
+  const result = await questions.findOneAndUpdate({_id:req.params.id},{Q:req.body.Q,OPS:req.body.OPS, ANS:req.body.ANS, module:req.body.module});
 res.send(result);
 });
 // Edit One Route PATCH version
