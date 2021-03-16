@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "./static/css/main.42104f94.chunk.css",
-    "main.js": "./static/js/main.9a8ecd4a.chunk.js",
-    "main.js.map": "./static/js/main.9a8ecd4a.chunk.js.map",
+    "main.js": "./static/js/main.9e1d4002.chunk.js",
+    "main.js.map": "./static/js/main.9e1d4002.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d8535afe.js",
     "runtime-main.js.map": "./static/js/runtime-main.d8535afe.js.map",
-    "static/js/2.b5241d08.chunk.js": "./static/js/2.b5241d08.chunk.js",
-    "static/js/2.b5241d08.chunk.js.map": "./static/js/2.b5241d08.chunk.js.map",
+    "static/js/2.e8ca0d6d.chunk.js": "./static/js/2.e8ca0d6d.chunk.js",
+    "static/js/2.e8ca0d6d.chunk.js.map": "./static/js/2.e8ca0d6d.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.42104f94.chunk.css.map": "./static/css/main.42104f94.chunk.css.map",
-    "static/js/2.b5241d08.chunk.js.LICENSE.txt": "./static/js/2.b5241d08.chunk.js.LICENSE.txt",
+    "static/js/2.e8ca0d6d.chunk.js.LICENSE.txt": "./static/js/2.e8ca0d6d.chunk.js.LICENSE.txt",
     "static/media/sapcard.a74b6bd3.png": "./static/media/sapcard.a74b6bd3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d8535afe.js",
-    "static/js/2.b5241d08.chunk.js",
+    "static/js/2.e8ca0d6d.chunk.js",
     "static/css/main.42104f94.chunk.css",
-    "static/js/main.9a8ecd4a.chunk.js"
+    "static/js/main.9e1d4002.chunk.js"
   ]
 }

@@ -3,9 +3,9 @@ var router = express.Router();
 
 const questions = require('../models/questions')
 //get all ids
-router.get("/ids", async (req, res) => { 
-
-    const result= await questions.find({},"_id");
+router.get("/ids/:mid", async (req, res) => { 
+    console.log(req.params.mid)
+    const result= await questions.find({module:req.params.mid},"_id");
     res.send(result);
     }); 
 
