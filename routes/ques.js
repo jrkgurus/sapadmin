@@ -6,10 +6,16 @@ const questions = require('../models/questions')
 router.get("/ids/:mid", async (req, res) => { 
     console.log(req.params.mid)
     const result= await questions.find({module:req.params.mid},"_id");
+    console.log(result)
     res.send(result);
     }); 
-
-
+/*router.get("/ids/:mid", async (req, res) => { 
+      console.log(req.params.mid)
+      const result= await questions.find({},"_id");
+      console.log(result)
+      res.send(result);
+      }); 
+*/
 // Get All Route
 router.get("/", async (req, res) => { 
 
